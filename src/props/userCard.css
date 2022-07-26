@@ -1,0 +1,38 @@
+.userCard {
+    background-color: white;
+    text-align: center;
+    width: 23rem;
+    height: 10rem;
+    border: 1px solid gray;
+    border-radius: 5%;
+    margin: 5px;
+}
+
+.userCard:hover {
+    cursor: pointer;
+    transition: transform 200ms, box-shadow 200ms;
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+
+#userCardPFPdiv>img {
+    padding-top: 20px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#userCardText {
+    text-align: center;
+}
+
+#userCardUsername {
+    font-size: large;
+}
+
+#userCardTag {
+    font-size: small;
+    color: darkslategray;
+}

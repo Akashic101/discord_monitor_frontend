@@ -1,0 +1,30 @@
+.channelCard {
+    background-color: white;
+    text-align: center;
+    width: 23rem;
+    height: 10rem;
+    border-radius: 5%;
+    margin: 5px;
+}
+
+.channelCard:hover {
+    cursor: pointer;
+    transition: transform 200ms, box-shadow 200ms;
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+#channelCardText {
+    text-align: center;
+}
+
+#channelCardChannelname {
+    font-size: large;
+}
+
+#channelCardTag {
+    font-size: small;
+    color: darkslategray;
+}

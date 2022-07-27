@@ -1,8 +1,15 @@
+#channelCardCollection {
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: center;
+}
+
 .channelCard {
     background-color: white;
     text-align: center;
     width: 23rem;
-    height: 10rem;
+    height: auto;
+    border: 1px solid gray;
     border-radius: 5%;
     margin: 5px;
 }
@@ -16,6 +23,20 @@
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
 }
 
+.channelCardType {
+    margin: 0 auto;
+    width: 40%;
+    border: 1px solid #7289da;
+    border-radius: 10%;
+}
+
+.channelCardType > * {
+    background-color: #7289da;
+    color: white;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
 #channelCardText {
     text-align: center;
 }
@@ -27,4 +48,8 @@
 #channelCardTag {
     font-size: small;
     color: darkslategray;
+}
+
+#channelCardTopic {
+    font-weight: lighter;
 }

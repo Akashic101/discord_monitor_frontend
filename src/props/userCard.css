@@ -1,8 +1,14 @@
+#userCardCollection {
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: center;
+}
+
 .userCard {
     background-color: white;
     text-align: center;
-    width: 23rem;
-    height: 10rem;
+    width: 28rem;
+    height: auto;
     border: 1px solid gray;
     border-radius: 5%;
     margin: 5px;
@@ -17,8 +23,7 @@
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
 }
 
-
-#userCardPFPdiv>img {
+#userCardPFPdiv > img {
     padding-top: 20px;
     width: 50px;
     border-radius: 50%;
@@ -35,4 +40,13 @@
 #userCardTag {
     font-size: small;
     color: darkslategray;
+}
+
+.userCardbot {
+    margin: 0 auto;
+    width: 7rem;
+    border-radius: 10%;
+    color: white;
+    font-weight: bolder;
+    height: 20%;
 }

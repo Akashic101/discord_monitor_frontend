@@ -10,6 +10,8 @@ declare module interfaces {
         createdAt: string;
         discriminator: string;
         messagesSend: number;
+        highestRoleID: number;
+	    highestRoleName: string;
         children?: React.ReactNode;
     }
 

@@ -1,0 +1,34 @@
+.grid-container {
+	margin-top: 20px;
+}
+
+.startseite-button {
+	margin-bottom: 20px;
+	padding: 30px 20px;
+	background-color: white;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: transform 400ms, box-shadow 400ms;
+	text-decoration: none;
+}
+
+.startseite-button:hover {
+	transition: transform 200ms, box-shadow 200ms;
+	transform: translateY(-15px);
+	-webkit-box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2);
+	box-shadow: 0 10px 20px -10px rgba(0,0,0,0.2);
+}
+
+.startseite-button-text {
+	margin-top: 20px;
+	line-height: 1.3;
+	font-weight: 600;
+	color: #1E266D;
+}
+
